@@ -1,0 +1,19 @@
+<%= turbo_stream_from project %>
+
+<div id="<%= dom_id project %>">
+  <p>
+    <strong>Name:</strong>
+    <%= project.name %>
+  </p>
+
+  <p>
+    <strong>Transcription:</strong>
+    <%= project.transcription %>
+  </p>
+
+  <p>
+    <strong>Status:</strong>
+    <%= project.status %>
+  </p>
+
+</div>
